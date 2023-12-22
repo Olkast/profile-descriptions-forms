@@ -1,0 +1,33 @@
+.firstStepContainer {
+  border: 1px solid #fff;
+  border-radius: 24px;
+  background-color: #fff;
+  width: 900px;
+  height: 821px;
+  margin: 24px auto;
+}
+
+.imgStep1 {
+  margin: 64px 0 0 108px;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 68px 0 0 108px;
+}
+
+.formContainer {
+  display: inline-grid;
+  margin-bottom: 48px;
+}
+
+.buttonContainer {
+  margin-top: 37px;
+  color: #FFF;
+  display: flex;
+  justify-content: space-between;
+  width: 698px;
+}
+

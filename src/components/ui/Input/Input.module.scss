@@ -1,0 +1,27 @@
+.form {
+  display: inline-grid;
+  height: 72px;
+  //margin-bottom: 24px;
+}
+
+.formLabel {
+  display: inline-grid;
+  font-family: 'TT TRAVELS', serif;
+  font-weight: 500;
+  color: #333;
+  font-size: 14px;
+}
+
+.formInput {
+  color: #0000007A;
+  border: 1px solid #00000029;
+  border-radius: 4px;
+  padding: 8px 13px;
+  font-family: 'TT TRAVELS', serif;
+  font-weight: 400;
+  font-size: 14px;
+  &:disabled {
+    background: #0000000A;
+  }
+}
+

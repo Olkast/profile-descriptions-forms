@@ -1,0 +1,61 @@
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  color: #0000007A;
+  border: 1px solid #00000029;
+  border-radius: 4px;
+  padding: 12px;
+  width: 300px;
+}
+
+.title {
+  display: inline-grid;
+  color: #333;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.text {
+  color: #0000007A;
+  font-size: 14px;
+}
+
+.dropdownContainer {
+  max-width: 200px;
+  position: relative;
+}
+
+.check {
+  cursor: pointer;
+  &.open {
+    transform: rotate(180deg);
+  }
+}
+
+.selectMen,
+.selectWoman {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.selectMen {
+  padding-bottom: 21px;
+}
+
+
+.listContainer {
+  display: block;
+  border: 1px solid #FFF;
+  border-radius: 4px;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.08);
+  padding: 13px 20px 12px 11px;
+  position: relative;
+  width: 300px;
+}
+
+.formLabel {
+  display: inline-grid;
+  color: #333;
+  font-size: 14px;
+  margin-bottom: 8px;
+}

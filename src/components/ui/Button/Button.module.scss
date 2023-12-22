@@ -1,0 +1,19 @@
+.button {
+  display: inline;
+  border-radius: 4px;
+  padding: 13px 15px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: 'TT TRAVELS', serif;
+  font-weight: 500;
+  &.blue {
+    border: 1.5px solid #5558FA;
+    background: #5558FA;
+    color: #FFF;
+  }
+  &.transparent {
+    border: 1.5px solid #5558FA;
+    background: #fff;
+    color: #5558FA;
+  }
+}

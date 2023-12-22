@@ -1,0 +1,75 @@
+.SecondStepContainer {
+    border: 1px solid #fff;
+    border-radius: 24px;
+    background-color: #fff;
+    width: 900px;
+    height: 800px;
+    margin: 24px auto;
+}
+
+.imgStep2 {
+  margin: 60px 0 34px 110px;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  margin: 68px 0 0 110px;
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: auto;
+}
+
+.formLabel {
+  display: inline-grid;
+  color: #333;
+  font-family: 'TT TRAVELS', serif;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 9px;
+}
+
+.formInput {
+  font-size: 14px;
+  color: #0000007A;
+  border: 1px solid #00000029;
+  border-radius: 4px;
+  padding: 12px;
+  margin-bottom: 11px;
+  font-family: 'TT TRAVELS', serif;
+  font-weight: 400;
+}
+
+.checkboxContainer {
+  display: grid;
+  margin: 26px 0 0 111px;
+}
+
+.checkboxTitle {
+  font-family: 'TT TRAVELS', serif;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+
+.plusImgContainer {
+  border-radius: 4px;
+  border: 1.5px solid var(--Purple-100, #5558FA);
+  padding: 9px;
+  max-width: 22px;
+  margin-left: 110px;
+  box-sizing: content-box;
+}
+
+.buttonContainer {
+  color: #FFF;
+  display: flex;
+  justify-content: space-between;
+  width: 685px;
+  margin: 64px 0 0 110px;
+}
